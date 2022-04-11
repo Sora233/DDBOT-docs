@@ -1,0 +1,14 @@
+{
+  "name": "ddbot-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "sora233",
+  "license": "CC-BY-SA-4.0",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  }
+}
