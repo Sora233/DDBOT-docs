@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/DDBOT',
+  base: '/',
   title: 'DDBOT 文档',
   description: 'DDBOT 文档中心',
   themeConfig: {
