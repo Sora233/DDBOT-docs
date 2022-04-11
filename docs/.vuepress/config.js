@@ -6,6 +6,8 @@ module.exports = {
     repo: 'Sora233/DDBOT-docs',
     repoLabel: '查看源码',
     lastUpdated: '最后更新',
+    docsDir: 'docs',
+    docsBranch: 'master',
     editLinks: true,
     editLinkText: '发现问题，救救SORA，我来改正此页面！',
     smoothScroll: true,
