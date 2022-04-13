@@ -38,7 +38,7 @@ DDBOT的部署较为容易，只需几步，即可获得一个专属于你的DDB
 
 :::danger 错误
 如果你双击运行程序的时候出现：
-<img :src="$withBase('/01_wrong_arch.jpg')" alt="错误提示">
+![错误提示](./01_wrong_arch.jpg)
 说明你下载了不适合你的DDBOT版本，请确认你下载的是：`DDBOT-vX.X.X-windows-amd64.zip`
 :::
 
@@ -46,11 +46,11 @@ DDBOT的部署较为容易，只需几步，即可获得一个专属于你的DDB
 
 观察黑色命令框，如果你看到命令框内有显示：
 
-<img :src="$withBase('/02_login.jpg')" alt="登陆成功">
+![登陆成功](./02_login.jpg)
 
 恭喜你，你已经成功启动了一个DDBOT。
 
-现在，请保持DDBOT运行，同时使用电脑或手机登陆 **`管理员帐号`**，并对 **`BOT帐号`**私聊发送：
+现在，请保持DDBOT运行，然后使用电脑或手机登陆 **`管理员帐号`**，并对 **`BOT帐号`** 私聊发送：
 
 ```shell
 /whosyourdaddy
