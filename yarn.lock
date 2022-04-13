@@ -1349,10 +1349,18 @@
     markdown-it-table-of-contents "^0.4.0"
     prismjs "^1.13.0"
 
-"@vuepress/plugin-active-header-links@1.9.7":
+"@vuepress/plugin-active-header-links@1.9.7", "@vuepress/plugin-active-header-links@^1.9.7":
   version "1.9.7"
   resolved "https://registry.npmmirror.com/@vuepress/plugin-active-header-links/-/plugin-active-header-links-1.9.7.tgz#11b3b148d50ebd0a9a9d9e97aa34d81ae04e7307"
   integrity sha512-G1M8zuV9Og3z8WBiKkWrofG44NEXsHttc1MYreDXfeWh/NLjr9q1GPCEXtiCjrjnHZHB3cSQTKnTqAHDq35PGA==
+  dependencies:
+    "@vuepress/types" "1.9.7"
+    lodash.debounce "^4.0.8"
+
+"@vuepress/plugin-back-to-top@^1.9.7":
+  version "1.9.7"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-back-to-top/-/plugin-back-to-top-1.9.7.tgz#249a76d79f1e0c8c71a2804485ad0245837e6bfd"
+  integrity sha512-DM1S+Q8Xn/i+zhe4zThekxb1M2abfKLklg/NKtQloklHKdNdVfk+EcxWYNmNfSii+ymDWaaG8lmH0xjVhy0iXw==
   dependencies:
     "@vuepress/types" "1.9.7"
     lodash.debounce "^4.0.8"
@@ -1365,7 +1373,15 @@
     "@vuepress/types" "1.9.7"
     cross-spawn "^6.0.5"
 
-"@vuepress/plugin-nprogress@1.9.7":
+"@vuepress/plugin-medium-zoom@^1.9.7":
+  version "1.9.7"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-1.9.7.tgz#077330aafd23e2cc8372e0041589875345edb80a"
+  integrity sha512-P00chXEEoFyQyDWiiSw1mUIdywS6vqM9jolM/3Gv3/TywqemWEm1MKMM7mLsjGiaXJbBQZE+U3/lHmzcaroYLQ==
+  dependencies:
+    "@vuepress/types" "1.9.7"
+    medium-zoom "^1.0.4"
+
+"@vuepress/plugin-nprogress@1.9.7", "@vuepress/plugin-nprogress@^1.9.7":
   version "1.9.7"
   resolved "https://registry.npmmirror.com/@vuepress/plugin-nprogress/-/plugin-nprogress-1.9.7.tgz#76d8368fa26c190ee23c399401a71ec78ffb9744"
   integrity sha512-sI148igbdRfLgyzB8PdhbF51hNyCDYXsBn8bBWiHdzcHBx974sVNFKtfwdIZcSFsNrEcg6zo8YIrQ+CO5vlUhQ==
@@ -5330,6 +5346,11 @@ media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.npmmirror.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
   integrity sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==
+
+medium-zoom@^1.0.4:
+  version "1.0.6"
+  resolved "https://registry.npmmirror.com/medium-zoom/-/medium-zoom-1.0.6.tgz#9247f21ca9313d8bbe9420aca153a410df08d027"
+  integrity sha512-UdiUWfvz9fZMg1pzf4dcuqA0W079o0mpqbTnOz5ip4VGYX96QjmbM+OgOU/0uOzAytxC0Ny4z+VcYQnhdifimg==
 
 memory-fs@^0.4.1:
   version "0.4.1"
