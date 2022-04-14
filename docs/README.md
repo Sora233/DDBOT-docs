@@ -14,7 +14,8 @@ features:
 ---
 
 ::: slot footer
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>进行许可
+<img alt="知识共享许可协议" style="border-width:0" :src="$withBase('/license.png')" /><br />
+采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>进行许可
 
-Copyright © 2020-present [Sora233](mailto:sora@sora233.me)
+Copyright © 2020-present [Sora233](https://space.bilibili.com/97505)
 :::
