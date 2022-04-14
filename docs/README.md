@@ -10,6 +10,11 @@ features:
   details: 交互被刻意设计成最小程度，群聊不会变成机器聊
 - title: 一键部署
   details: 不配环境，双击运行
-  footer: CC-BY-SA-4.0 Licensed | Copyright © 2020-present Sora233
 
 ---
+
+::: slot footer
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>进行许可
+
+Copyright © 2020-present [Sora233](mailto:sora@sora233.me)
+:::

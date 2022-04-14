@@ -27,7 +27,7 @@ module.exports = {
       {text: '命令指南', link: '/guide/'},
       {text: '部署指南', link: '/deploy/'},
       {text: '模板', link: '/template/'},
-      {text: '需要帮助？', link: '/DDBOT-help/'}
+      {text: '需要帮助？', link: '/help/'}
     ]
   },
 }
