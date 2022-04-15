@@ -22,6 +22,7 @@ module.exports = {
     sidebar: 'auto',
     displayAllHeaders: true,
     backToHome: "返回首页",
+    activeHeaderLinks: true,
     nav: [
       {text: '主页', link: '/'},
       {text: '命令指南', link: '/guide/'},
