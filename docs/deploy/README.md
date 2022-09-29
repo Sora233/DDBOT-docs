@@ -148,4 +148,59 @@ TODO
 
 - ### 如何获取B站Cookie
 
-TODO
+------
+
+::: tip 提示
+本页使用Google Chrome为教程，
+即使用Chromium内核开发的浏览器均可使用，例如[Edge、360浏览器等]。
+Gecko内核(FireFox)基本通用，但在不同点会做出提示。
+:::
+
+1、打开浏览器。
+
+2、进入[bilibili](https://www.bilibili.com)。
+
+3、请确保你已登录bilibili账号！
+
+4、在B站主页按下 **F12** 键打开开发者工具箱(DevTools)。
+
+![打开DevTools](./img/01_devtools.png)
+
+5、点击 **`应用(Application)->Cookie->https://www.bilibili.com`** (二级域名为bilibili都即可)。
+
+![Cookie获取](./img/02_get_cookie.png)
+
+::: tip 提示
+FireFox打开开发者工具箱(DevTools)与以上方法相同(即按F12)。
+
+但Cookie则在 **`存储->Cookie中`**
+:::
+
+6、在选择二级域名为bilibili的Cookie中找到 **`名称(name)bili_jct和SESSDATA，并将值(key)`** 复制记录下来。
+
+::: warning 警告
+注意！你获取的是B站账号所登录设备的Cookie。当你的账号在该设备下线，该Cookie会被作废导致DDBOT无法登录。
+建议在Windows系统下的服务器上登录B站账号并在服务器上获取Cookie，来保证DDBOT所使用的Cookie不会被作废！
+
+Cookie有过期时间，如因时间过期可提供该方法重新获取。
+:::
+
+7、打开DDBOT的 **`application.yaml`** 文件，将获取的Cookie粘贴到对应的参数中！
+
+![DDBOT登录Cookit](./img/04_ddbot_cookie.png)
+
+::: warning 警告
+请不要对他人公开你的Cookie！Cookie可作为钥匙直接登录你的B站账号！
+
+你也不想让别人在你家偷窥你对吧！
+:::
+
+8、确定无误后启动DDBOT即可。
+
+::: danger 错误
+在使用一段时间后发现DDBOT提示 **`-401`** 错误时，请检查：
+ - Cookie是否过期
+ - 收集Cookie的设备是否下线bilibili。
+
+ 如以上错误及时获取新的Cookie并更换即可。
+:::
